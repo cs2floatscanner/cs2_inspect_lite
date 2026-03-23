@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cs2-inspect-lite"
+version = "0.1.0"
+description = "Минималистичная библиотека для декодирования CS2 inspect-ссылок и propid:6. Pure Python, без зависимостей."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+keywords = ["cs2", "csgo", "inspect", "float", "skincraft"]
+
+[project.urls]
+Homepage = "https://github.com/cs2floatscanner/cs2-inspect-lite"
+
+[tool.setuptools.packages.find]
+include = ["cs2_inspect_lite*"]
