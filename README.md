@@ -7,10 +7,14 @@
 ## Установка
 
 ```bash
-pip install .
+pip install cs2-inspect-lite
 ```
 
-Или просто скопируйте папку `cs2_inspect_lite/` в свой проект.
+Или из исходников:
+
+```bash
+pip install .
+```
 
 ## Быстрый старт
 

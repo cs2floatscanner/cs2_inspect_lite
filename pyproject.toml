@@ -5,14 +5,30 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "cs2-inspect-lite"
 version = "0.1.0"
-description = "Минималистичная библиотека для декодирования CS2 inspect-ссылок и propid:6. Pure Python, без зависимостей."
+description = "Lightweight pure-Python CS2 inspect link & propid:6 decoder. Zero dependencies."
 readme = "README.md"
 license = {text = "MIT"}
 requires-python = ">=3.9"
-keywords = ["cs2", "csgo", "inspect", "float", "skincraft"]
+keywords = ["cs2", "csgo", "counter-strike", "inspect", "float", "skin", "wear"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Games/Entertainment :: First Person Shooters",
+    "Typing :: Typed",
+]
 
 [project.urls]
-Homepage = "https://github.com/cs2floatscanner/cs2-inspect-lite"
+Homepage = "https://github.com/cs2floatscanner/cs2_inspect_lite"
+Repository = "https://github.com/cs2floatscanner/cs2_inspect_lite"
+Issues = "https://github.com/cs2floatscanner/cs2_inspect_lite/issues"
 
 [tool.setuptools.packages.find]
 include = ["cs2_inspect_lite*"]
